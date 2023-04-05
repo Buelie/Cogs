@@ -38,3 +38,5 @@
 <inte>python</inte> #项目解释器(c或者python)
 ```
 然后,您创建了您的第一个项目!!!
+
+**What the? You don't understand Chinese? Try [Switch Language](#)**
