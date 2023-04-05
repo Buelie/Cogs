@@ -1,4 +1,5 @@
 import Math.area
+import Math.volume
 
 if __name__ == '__main__':
     while True:
@@ -14,3 +15,12 @@ if __name__ == '__main__':
             print("正方体的表面积(10*10*6)=" + str(Math.area.Area(10).cube()))
             print("圆柱的表面积(r:2,h:10)="+str(Math.area.Area(10).cylinder(2)))
             print("")
+            print("长方体的体积(l:10,w:10,h:10)="+str(Math.volume.Volume(10).cuboid(10,10)))
+            print("正方体的体积(l:10)="+str(Math.volume.Volume(10).cube()))
+            print("圆柱的体积(r:10,h:1)="+str(Math.volume.Volume(1).cylinder(10)))
+            print("")
+        elif command == "$HELP" or command == "$Help":
+            print("= = = = = = HELP | 帮助 = = = = = =")
+            print("|$Math                  数学函数调试|")
+            print("|$Help                  获取所有帮助|")
+            print("= = = = = = = = = = = = = = = = = =")
