@@ -1,5 +1,7 @@
 import Math.area
 import Math.volume
+import Math.symbol
+import Built.stc
 
 if __name__ == '__main__':
     while True:
