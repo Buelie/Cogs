@@ -53,5 +53,5 @@ pip install CogsL
 
 # 用pip进行更新:
 ```
-pip install --upgrade Cogs
+pip install --upgrade CogsL
 ```
