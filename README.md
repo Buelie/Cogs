@@ -44,3 +44,14 @@
 然后,您创建了您的第一个项目!!!
 
 **What the? You don't understand Chinese? Try [Switch Language](#)**
+
+# 您想用其他方式安装?
+**测试使用pip安装!**
+```
+pip install CogsL
+```
+
+# 用pip进行更新:
+```
+pip install --upgrade Cogs
+```
